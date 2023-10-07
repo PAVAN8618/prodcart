@@ -3,6 +3,7 @@ import axios from 'axios';
 import { cartReducer } from "./reducers/cartReducer";
 import Products from "./components/Product";
 import Cart from "./components/Cart";
+import Search from "./components/Search";
 
 
 function App() {
@@ -25,7 +26,8 @@ function App() {
     fetchProducts();
   },[])
   return (
-    <div style={{display:'flex'}}>
+    <div style={{display:'flex', backgroundColor:'lightgray'}}>
+    <Search/>
     <Products state={state} dispatch={dispatch}/>
     <Cart state={state} dispatch={dispatch}/>
   </div>

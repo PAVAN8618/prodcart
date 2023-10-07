@@ -22,7 +22,7 @@ function Cart({state, dispatch}) {
 })
 
   return (
-    <div style={{display:'flex', flexDirection:'column', margin:10, backgroundColor:'#ececec', padding:10, width:'20%'}}>
+    <div style={{display:'flex', flexDirection:'column', margin:10, backgroundColor:'#f3a3a3', padding:10, width:'20%'}}>
     <b style={{fontSize:30, alignSelf:'center'}}>Cart</b>
     <b style={{alignSelf:'center'}}>Subtotal: $ {total}</b>
     <div style={{display:'flex', flexDirection:'column', width:'100%'}}>
