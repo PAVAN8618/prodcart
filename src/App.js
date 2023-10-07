@@ -27,7 +27,7 @@ function App() {
   },[])
   return (
     <div style={{display:'flex', backgroundColor:'lightgray'}}>
-    <Search/>
+    {/* <Search/> */}
     <Products state={state} dispatch={dispatch}/>
     <Cart state={state} dispatch={dispatch}/>
   </div>
